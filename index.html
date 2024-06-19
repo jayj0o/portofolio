@@ -1,94 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carousel and Cards</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .carousel-item {
-            height: 500px;
-        }
-        .carousel-item img {
-            width: 1860px;
-            height: 500px;
-            object-fit: cover;
-        }
-        .custom-title {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .card-deck .card {
-            min-width: 18rem;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .carousel-item img {
+      width: 1860px;
+      height: 500px;
+      object-fit: cover;
+    }
+    .profile-img {
+      max-width: 100%;
+      border-radius: 50%;
+    }
+    .profile-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .profile-text {
+      max-width: 600px;
+      margin-left: 20px;
+    }
+  </style>
 </head>
 <body>
-
 <div class="container mt-5">
-    <!-- Carousel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="gitar.png" class="d-block w-100" alt="Slide 1">
-            </div>
-            <div class="carousel-item">
-                <img src="dewaw.png" class="d-block w-100" alt="Slide 2">
-            </div>
-            <div class="carousel-item">
-                <img src="maykeL..png" class="d-block w-100" alt="Slide 3">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="gitar.png" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="dewaw.png" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="maykeL..png" class="d-block w-100" alt="Slide 3">
+      </div>
     </div>
-
-    <!-- Title -->
-    <div class="custom-title">
-        <h1>Daftar pacar gwehj.</h1>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container mt-5">
+    <div class="row profile-section">
+      <div class="col-md-4 text-center">
+        <img src="me.jpg" class="profile-img" alt="Your Photo">
+      </div>
+      <div class="col-md-8 profile-text">
+        <h2>Tentang Saya</h2>
+        <p>Halo, nama saya Callysta Adzra Kesuma, lebih akrab dipanggil Adzra. Saat ini saya duduk di bangku kelas 10, SMAS Al-Fityan School Medan. Saya suka mendengarkan musik, khususnya Dewa, bermain gitar dan nonton film dengan genre kriminal atau misteri. Sekarang, saya sedang mengembangkan kemampuan saya dalam bidang programming.</p>
+      </div>
     </div>
-
-    <!-- Cards -->
-    <div class="card-deck mt-4">
-        <div class="card">
-            <img src="langa, sk8 the infinity.jpeg" class="card-img-top" alt="Card 1">
-            <div class="card-body">
-                <h5 class="card-title">Langa</h5>
-                <p class="card-text">pacar 1</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="taehoon seong.jpeg" class="card-img-top" alt="Card 2">
-            <div class="card-body">
-                <h5 class="card-title">Taehoon</h5>
-                <p class="card-text">mendiang pacar</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="garam lee.jpeg" class="card-img-top" alt="Card 3">
-            <div class="card-body">
-                <h5 class="card-title">River</h5>
-                <p class="card-text">pacar 2</p>
-            </div>
-        </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col text-center">
+        <h2>Project Saya</h2>
+      </div>
     </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="form.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project Form</h5>
+            <p class="card-text">Membuat form dengan html sebagai tugas penilaian harian di SMA</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="login.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project Halaman Login</h5>
+            <p class="card-text">Membuat halaman login dengan html dan css sebagai tugas penilaian harian di SMA</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="portofolioh.png" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Project Portofolio</h5>
+            <p class="card-text">Membuat portofolio singkat dengan html dan bootstrap sebagai tugas PSAS di SMA</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5"></div>
+    </div>
+  </div>
 </div>
-
-<!-- Bootstrap JS and dependencies -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
