@@ -1,0 +1,50 @@
+.background{
+    background-color: #cadbb7;
+}
+.bulet{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
+.ingfo{
+    margin-top: 4%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 4%;
+}
+.tentang{
+    margin-top: 2%;
+}
+.glow{
+    font-weight: bolder;
+    font-size: 400%;
+    color: rgb(255, 255, 255);
+    font-family: system-ui;
+    text-shadow: 0 0
+    10px #fff, 0 0 20px #485935, 0 0
+    30px #93a267;
+}
+.glow2{
+    box-shadow: 0 0
+    5px #aac68a, 0 0 20px #485935, 0 0
+    30px #93a267;
+}
+.kotak{
+    margin-left: 150px;
+    margin-right: 100px;
+    width: 900px;
+    height: 150px;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    margin-bottom: 4%;
+}
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 50%;
+    transform: translateY(25%);
+    color: #597259;
+}
+.jj{
+    margin-bottom: 4%;
+}
